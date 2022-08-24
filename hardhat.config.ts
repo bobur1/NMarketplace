@@ -8,8 +8,6 @@ import 'hardhat-docgen'
 import '@openzeppelin/hardhat-upgrades'
 import "@nomiclabs/hardhat-etherscan"
 
-// TODO make verification example
-
 require('dotenv').config()
 require('./tasks')
 
@@ -84,6 +82,11 @@ module.exports = {
       gasPrice: 'auto',
       // gasLimit: 10000000,
       accounts: { mnemonic: mnemonic },
+    },
+    matic: {
+      url: "https://rpc-mumbai.maticvigil.com",
+      chainId: 80001,
+      accounts: { mnemonic: mnemonic }
     }
   },
   paths: {

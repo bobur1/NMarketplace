@@ -7,6 +7,7 @@ bin
 coverage
 coverage.json
 .env*
+!.env-example
 .vscode
 /.idea/.gitignore
 package-lock.json

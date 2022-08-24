@@ -1,5 +1,40 @@
 # MarketPlace
 
+## Deployed
+
+### BSC Testnet
+
+CustomNFT deployed with address: [0x1B1abEeAA98Dee1daC97c027ed237F479907B8B6](https://testnet.bscscan.com/address/0x1B1abEeAA98Dee1daC97c027ed237F479907B8B6)
+
+CustomToken deployed with address: [0xC5b816D272fC22864403f851d92E5e92dFe02304](https://testnet.bscscan.com/address/0xC5b816D272fC22864403f851d92E5e92dFe02304)
+
+MarketPlace deployed with address: [0xd960ACb79f7847501d64D4CBA915EEEca31d2457](https://testnet.bscscan.com/address/0xd960ACb79f7847501d64D4CBA915EEEca31d2457)
+
+### Goerli
+
+CustomNFT deployed with address: [0x1B1abEeAA98Dee1daC97c027ed237F479907B8B6](https://goerli.etherscan.io/address/0x1B1abEeAA98Dee1daC97c027ed237F479907B8B6)
+
+CustomToken deployed with address: [0xC5b816D272fC22864403f851d92E5e92dFe02304](https://goerli.etherscan.io/address/0xC5b816D272fC22864403f851d92E5e92dFe02304)
+
+MarketPlace deployed with address: [0xd960ACb79f7847501d64D4CBA915EEEca31d2457](https://goerli.etherscan.io/address/0xd960ACb79f7847501d64D4CBA915EEEca31d2457)
+
+### Rinkeby (!can be deprecated soon)
+
+CustomNFT deployed with address: [0x1B1abEeAA98Dee1daC97c027ed237F479907B8B6](https://rinkeby.etherscan.io/address/0x1B1abEeAA98Dee1daC97c027ed237F479907B8B6)
+
+CustomToken deployed with address: [0xC5b816D272fC22864403f851d92E5e92dFe02304](https://rinkeby.etherscan.io/address/0xC5b816D272fC22864403f851d92E5e92dFe02304)
+
+MarketPlace deployed with address: [0xd960ACb79f7847501d64D4CBA915EEEca31d2457](https://rinkeby.etherscan.io/address/0xd960ACb79f7847501d64D4CBA915EEEca31d2457)
+
+
+### Polygon Testnet (MATIC)
+
+CustomNFT deployed with address: [0x1B1abEeAA98Dee1daC97c027ed237F479907B8B6](https://mumbai.polygonscan.com/address/0x1B1abEeAA98Dee1daC97c027ed237F479907B8B6)
+
+CustomToken deployed with address: [0xC5b816D272fC22864403f851d92E5e92dFe02304](https://mumbai.polygonscan.com/address/0xC5b816D272fC22864403f851d92E5e92dFe02304)
+
+MarketPlace deployed with address: [0xd960ACb79f7847501d64D4CBA915EEEca31d2457](https://mumbai.polygonscan.com/address/0xd960ACb79f7847501d64D4CBA915EEEca31d2457)
+
 ## Using this Project
 
 Clone this repository, then install the dependencies with `npm install`, then compile contracts with `npm run compile`.

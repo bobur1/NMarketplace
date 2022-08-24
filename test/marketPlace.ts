@@ -83,7 +83,7 @@ describe('Contract: MarketPlace', () => {
 		});
         it('Cannot create new item without owning the token', async () => {
             // using users[2] instead of users[0] due to not messing with already used numbers
-            await expect(market.connect(users[2]).openTrade(0, trade0Price)).to.revertedWith('C721: transfer of token that is not own');
+            await expect(market.connect(users[2]).openTrade(0, trade0Price)).to.revertedWith('ERC721: transfer from incorrect owner');
 		});
         it('Sell item', async () => {
             expect(await market.connect(user1).executeTrade(0)).to.emit(market, 'TradeStatusChange')
