@@ -24,9 +24,10 @@ contract CustomNFT is ERC721, AccessControl {
     * @notice Mint some ERC721 tokens
     * @param client address of the potentional owner of the new token
      */
-    function mint(address client) public onlyRole(MINTER_ROLE) {
+    function mint(address client) public onlyRole(MINTER_ROLE) returns(uint256) {
         _safeMint(client, nextTokenId);
-        nextTokenId ++;
+        nextTokenId += 1;
+        return nextTokenId - 1;
     }
 
     /**
